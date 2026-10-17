@@ -38,14 +38,12 @@ h1 {
     cursor: pointer;
     margin-left: 10px;
 }
-.logo-mid {
-    max-height: 80px;
+.logo {
+    max-height: 120px;
     width: auto;
     object-fit: contain;
-    flex-shrink: 0;
-    margin: 0 auto;
+    align-self: flex-start;
 }
-
 }
 main {
     width: 100%;
