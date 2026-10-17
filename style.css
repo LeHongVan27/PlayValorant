@@ -12,7 +12,7 @@ html, body {
 }
 .head {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     gap: 45px;
     background-color: #000000;
     color: #ffffff;
@@ -21,9 +21,14 @@ html, body {
 }
 .head-banner {
     display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    flex-shrink: 0;
+}
+.text {
+    display: flex;
     align-items: baseline;
     gap: 45px;
-    flex-shrink: 0;
 }
 h1 {
     font-size: 50px;
@@ -43,7 +48,6 @@ h1 {
     width: auto;
     object-fit: contain;
     align-self: flex-start;
-}
 }
 main {
     width: 100%;
