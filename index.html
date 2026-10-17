@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VALORANT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <div style="display: flex; align-items: baseline; gap: 25px;">
-            <h1 id="main" style="font-size: 50px;">Valorant</h1>
-            <div style="font-size: 25px; font-weight: bold;">
+        <div class="head">
+            <h1 id="main">Valorant</h1>
+            <div class="more-select">
                 <label for="more-pages">More: </label>
-                <select id="more-pages" onchange="if (this.value) window.location.href=this.value;"
-                    style="padding: 5px; font-size: 14px; cursor: pointer;">
+                <select id="more-pages" onchange="if (this.value) window.location.href=this.value;">
                     <option value="">-- Select Page --</option>
                     <option value="index.html">Home</option>
                     <option value="agents.html">Agents Gallery</option>
@@ -23,13 +23,15 @@
                 </select>
             </div>
         </div>
-        <h2>Information</h2>
-        <p>
-            "Valorant Agents emerged following the First Light, a global event that unleashed a powerful energy source
-            called Radianite. Agents derive their abilities from three distinct origins: being Radiants with innate
-            elemental superpowers, utilizing advanced Radianite technology, or bonding with ancient, mystical artifacts
-            that grant them supernatural control."
-        </p>
+    <div class="content-section">
+        <div>
+            <h2>Information</h2>
+            <p>
+                "Valorant Agents emerged following the First Light, a global event that unleashed a powerful energy source
+                called Radianite. Agents derive their abilities from three distinct origins: being Radiants with innate
+                elemental superpowers, utilizing advanced Radianite technology, or bonding with ancient, mystical artifacts
+                that grant them supernatural control."
+            </p>
         </div>
         <div>
             <h2>Facts</h2>
@@ -49,6 +51,7 @@
         <div>
             <p>Download game here: <a href="valorant.vnggames.com" target="_blank">Download</a></p>
         </div>
+    </div>    
     </main>
 </body>
 
