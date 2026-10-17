@@ -39,7 +39,7 @@ h1 {
     margin-left: 10px;
 }
 .logo-mid {
-    max-height: 160px;
+    max-height: 80px;
     width: auto;
     object-fit: contain;
     flex-shrink: 0;
