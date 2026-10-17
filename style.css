@@ -8,8 +8,7 @@ body {
 .head {
     display: flex;
     align-items: baseline;
-    gap: 25px;
-    /* Thiết lập nền đen và chữ trắng */
+    gap: 40px;
     background-color: #000000;
     color: #ffffff;
     padding: 15px 30px; 
