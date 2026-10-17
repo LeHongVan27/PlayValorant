@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="head">
-        <div class="head-banner">
-            <div class="text">
-                <h1 id="main">Valorant</h1>
-                <div class="more-select">
+     <div class="head" style="display: flex; align-items: center; justify-content: flex-start; gap: 30px; background-color: #000000; color: #ffffff; padding: 20px 35px; width: 100%;">
+       <div class="head-banner" style="display: flex; flex-direction: column; gap: 15px; flex-shrink: 0;">
+            <div class="inline-text" style="display: flex; align-items: baseline; gap: 45px;">
+                <h1 id="main" style="font-size: 50px; margin: 0;">Valorant</h1>
+                <div class="more-select" style="font-size: 25px; font-weight: bold;">
                     <label for="more-pages">More: </label>
                     <select id="more-pages" class="more-pages" onchange="if (this.value) window.location.href=this.value;">
                         <option value="">-- Select Page --</option>
@@ -24,7 +24,7 @@
                     </select>
                 </div>
             </div>
-        <img src="images/logo.jpg" alt="Logo" class="logo">
+                <img src="images/logo.jpg" alt="Logo" class="logo">
         </div>
         <img src="images/valorant.jpg" alt="valorant" style="margin-left: auto; max-height: 350px; width: auto; object-fit: contain; display: block;">
     </div>
