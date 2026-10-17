@@ -13,16 +13,17 @@ html, body {
 .head {
     display: flex;
     align-items: center;
-    gap: 45px;
+    justify-content: flex-start;
+    gap: 30px;
     background-color: #000000;
     color: #ffffff;
-    padding: 20px 30px;
+    padding: 20px 35px;
     width: 100%;
 }
 .head-banner {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 17px;
     flex-shrink: 0;
 }
 .text {
