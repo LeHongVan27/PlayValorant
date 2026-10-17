@@ -1,9 +1,13 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body {
     background-color: #f5ebe0; 
     color: #333333;
+    font-family: Arial, sans-serif;
+    width: 100%;
 }
 .head {
     display: flex;
@@ -12,10 +16,10 @@ html, body {
     background-color: #000000;
     color: #ffffff;
     padding: 15px 30px; 
+    width: 100%;
 }
 h1 {
     font-size: 50px;
-    margin: 0;
 }
 .more-select {
     font-size: 25px;
