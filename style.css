@@ -39,3 +39,7 @@ main {
 main div {
     margin-bottom: 20px;
 }
+main ul {
+    padding-left: 20px; 
+    margin-top: 10px;
+}
