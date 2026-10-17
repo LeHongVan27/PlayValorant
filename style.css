@@ -8,7 +8,7 @@ body {
 .head {
     display: flex;
     align-items: baseline;
-    gap: 40px;
+    gap: 45px;
     background-color: #000000;
     color: #ffffff;
     padding: 15px 30px; 
@@ -25,9 +25,13 @@ h1 {
     padding: 5px;
     font-size: 14px;
     cursor: pointer;
+    margin-left: 10px;
 }
 .content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 44px 44px;
+}
+.content div {
+    margin-bottom: 20px;
 }
