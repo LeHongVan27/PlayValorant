@@ -10,10 +10,13 @@
 </head>
 
 <body>
-     <div class="head" style="display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; padding-right: 20px;>
-        <div class="head-banner">
+     <div class="head" style="display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; padding: 20px; background-color: #000000;">
+        <div class="head-banner" style="display: flex; flex-direction: column; gap: 15px;">
             <div class="text">
-                <h1 id="main" style="font-size: 50px; margin: 0;">Valorant</h1>
+                <h1 id="main" style="font-size: 50px; margin: 0; color: #ffffff; font-family: sans-serif;">Valorant</h1>
+            <div>
+                <img src="images/logo.jpg" alt="Logo" class="logo" style="max-height: 100px; width: auto; object-fit: contain; display: block;">
+            </div>
                 <div class="more-select" style="font-size: 25px; font-weight: bold;">
                     <label for="more-pages">More: </label>
                     <select id="more-pages" class="more-pages" onchange="if (this.value) window.location.href=this.value;">
@@ -25,16 +28,16 @@
                 </div>
             </div>
              <div>
-            <a href="index.html" style="display: inline-block; font-family: 'Impact', 'Arial Black', sans-serif; font-size: 18px; color: #ff4655; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; border: 2px solid #ff4655; padding: 8px 16px; border-radius: 4px; transition: all 0.2s ease;"
-               onmouseover="this.style.backgroundColor='#ff4655'; this.style.color='#ffffff';" 
-               onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff4655';">
-               Back To Main
-            </a>
+                <a href="index.html" style="display: inline-block; font-family: 'Impact', 'Arial Black', sans-serif; font-size: 18px; color: #ff4655; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; border: 2px solid #ff4655; padding: 8px 16px; border-radius: 4px; transition: all 0.2s ease;"
+                   onmouseover="this.style.backgroundColor='#ff4655'; this.style.color='#ffffff';" 
+                   onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff4655';">
+                   Back To Main
+                </a>
         </div>
-        <div style="display: flex; align-items: center; gap: 30px;">
-            <img src="images/logo.jpg" alt="Logo" class="logo">
-            <img src="images/valorant.jpg" alt="valorant" style="max-height: 350px; width: auto; object-fit: contain; display: block; flex-shrink: 0;">
+        <div style="flex-shrink: 0;">
+            <img src="images/valorant.jpg" alt="valorant" style="max-height: 350px; width: auto; object-fit: contain; display: block;">
         </div>
+     </div>
      </div>
     <main>
         <div>
