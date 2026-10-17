@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -27,12 +27,12 @@ h1 {
     cursor: pointer;
     margin-left: 10px;
 }
-.content {
+main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 44px 44px;
 }
-.content div {
+main div {
     margin-bottom: 20px;
 }
 main {
