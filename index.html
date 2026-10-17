@@ -10,17 +10,19 @@
 
 <body>
     <main>
-        <div style="display: flex; align-items: baseline; gap: 25px;"></div>
-        <h1 id="main" style="font-size: 50px;">Valorant</h1>
-        <div style="font-size: 35px; font-weight: bold;">
-                    <label for="more-pages">More: </label>
-                    <select id="more-pages" onchange="if (this.value) window.location.href=this.value;" style="padding: 5px; font-size: 14px; cursor: pointer;">
-                        <option value="">-- Select Page --</option>
-                        <option value="index.html">Home (Current Page)</option>
-                        <option value="agents.html">Agents Gallery (Page 2)</option>
-                        <option value="maps.html">Maps & Lore (Page 3)</option>
-                    </select>
-                </div>
+        <div style="display: flex; align-items: baseline; gap: 25px;">
+            <h1 id="main" style="font-size: 50px;">Valorant</h1>
+            <div style="font-size: 25px; font-weight: bold;">
+                <label for="more-pages">More: </label>
+                <select id="more-pages" onchange="if (this.value) window.location.href=this.value;"
+                    style="padding: 5px; font-size: 14px; cursor: pointer;">
+                    <option value="">-- Select Page --</option>
+                    <option value="index.html">Home</option>
+                    <option value="agents.html">Agents Gallery</option>
+                    <option value="maps.html">Maps</option>
+                </select>
+            </div>
+        </div>
         <h2>Information</h2>
         <p>
             "Valorant Agents emerged following the First Light, a global event that unleashed a powerful energy source
@@ -31,20 +33,23 @@
         </div>
         <div>
             <h2>Facts</h2>
-            <p>The world of <strong>VALORANT</strong> is split into two parallel realities, Alpha Earth and Omega Earth, following a
+            <p>The world of <strong>VALORANT</strong> is split into two parallel realities, Alpha Earth and Omega Earth,
+                following a
                 cosmic event called the First Light.</p>
             <ul>
                 <li><strong>Alpha Earth</strong> is trying to defend its resources.</li>
-                <li><strong>Omega Earth</strong> is suffering an environmental collapse and must steal Radianite from Alpha Earth to
+                <li><strong>Omega Earth</strong> is suffering an environmental collapse and must steal Radianite from
+                    Alpha Earth to
                     survive.</li>
             </ul>
-            <p>This creates a tragic, interdimensional war for survival with no true villains, which perfectly explains why
+            <p>This creates a tragic, interdimensional war for survival with no true villains, which perfectly explains
+                why
                 identical agents fight each other in the game.</p>
         </div>
         <div>
             <p>Download game here: <a href="valorant.vnggames.com" target="_blank">Download</a></p>
         </div>
-        </main>
-        </body>
-        
-        </html>
+    </main>
+</body>
+
+</html>
