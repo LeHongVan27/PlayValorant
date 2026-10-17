@@ -13,13 +13,18 @@
         <div class="head-banner">
             <div class="text">
                 <h1 id="main" style="font-size: 50px; margin: 0;">Valorant</h1>
-                <div class="more-select" style="font-size: 25px; font-weight: bold;">
-                    <label for="more-pages">More: </label>
-                    <select id="more-pages" class="more-pages" onchange="if (this.value) window.location.href=this.value;">
+                <div class="more-select" style="font-size: 25px; font-weight: bold; position: relative; display: inline-block;">
+                    <span style="color: #ffffff; cursor: pointer; transition: all 0.2s ease-in-out;"
+                    onmouseover="this.style.fontWeight='bold'; this.style.color='#ff4655';" 
+                    onmouseout="this.style.fontWeight='normal'; this.style.color='#ffffff';">
+                    More ▾
+                    </span>
+                    <select id="more-pages" class="more-pages" onchange="if (this.value) window.location.href=this.value;"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;">
                         <option value="">-- Select Page --</option>
                         <option value="index.html">Home</option>
                         <option value="agents.html">Agents Gallery</option>
-                        <option value="maps.html" selected>Maps</option>
+                        <option value="maps.html">Maps</option>
                     </select>
                 </div>
                 <div style="margin-top: 5px;">
