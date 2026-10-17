@@ -12,13 +12,18 @@ html, body {
 }
 .head {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 45px;
     background-color: #000000;
     color: #ffffff;
-    padding: 10px 30px; 
+    padding: 20px 30px;
     width: 100%;
-    min-height: 80px
+}
+.head-banner {
+    display: flex;
+    align-items: baseline;
+    gap: 45px;
+    flex-shrink: 0;
 }
 h1 {
     font-size: 50px;
@@ -42,7 +47,6 @@ h1 {
 main {
     width: 100%;
     padding: 40px 35px;
-    box-sizing: border-box;
 }
 main div {
     margin-bottom: 28px;
