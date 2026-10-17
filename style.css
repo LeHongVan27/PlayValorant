@@ -38,11 +38,14 @@ h1 {
     cursor: pointer;
     margin-left: 10px;
 }
-.banner {
-    margin-left: auto;
-    max-height: 120px;
+.logo-mid {
+    max-height: 160px;
     width: auto;
     object-fit: contain;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
 }
 main {
     width: 100%;
